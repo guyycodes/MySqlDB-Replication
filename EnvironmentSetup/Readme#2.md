@@ -258,4 +258,14 @@ SHOW SLAVE STATUS\G;
 SHOW DATABASES;
 USE <DBNAME>;
 SHOW TABLES;
+
+// Final Check
+SHOW SLAVE STATUS\G
+
+// if the process listed below arent running try:
+START SLAVE SQL_THREAD;
 ``` 
+- Slave_IO_Running: Should be Yes if the IO thread is running (reading the binary log from the master).
+- Slave_SQL_Running: Should be Yes if the SQL thread is running (executing the replicated SQL statements).
+- Last_Error: Shows the last error registered by the replication process, if any.
+- Seconds_Behind_Master: Indicates how far behind the slave is from the master in terms of replication lag.
