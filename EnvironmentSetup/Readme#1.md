@@ -20,6 +20,10 @@ sudo mysql_secure_installation
 ```bash
 // Edit the MySQL Configuration File:
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+// if you installed with Homebrew for mac 
+sudo nano /opt/homebrew/etc/my.cnf 
+
 // Find the line that contains bind-address and change it to:
 bind-address = 0.0.0.0
 
