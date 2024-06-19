@@ -189,7 +189,7 @@ Similar to the master, ensure that the slave has all necessary directories creat
    CHANGE MASTER TO
    MASTER_HOST='127.0.0.1',
    MASTER_USER='replicator',
-   MASTER_PASSWORD='Colorado1!',
+   MASTER_PASSWORD='<password>',
    MASTER_LOG_FILE='mysql-bin.000011',
    MASTER_LOG_POS=613;
    START SLAVE;
