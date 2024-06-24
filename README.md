@@ -3,6 +3,8 @@
 ## Overview
 This documentation provides detailed instructions on how to set up MySQL replication with one master server and one or more slave servers. Replication in MySQL is a process that allows you to easily maintain multiple copies of MySQL data by having them copied automatically from a master to one or more slave servers.
 
+This documentation also covers how to establish remote connection to MySQL workbench.
+
 ## Purpose
 The primary purposes of setting up replication are:
 
