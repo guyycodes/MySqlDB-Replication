@@ -1,4 +1,4 @@
-# Roadmap 
+# Setup Remote MySQL access
 #### Download MySQL server for your device:
 * https://dev.mysql.com/downloads/mysql/
 

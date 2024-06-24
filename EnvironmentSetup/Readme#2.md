@@ -1,7 +1,7 @@
 # MySQL Master-Slave Replication Setup
 ## Step 1: Prepare the Master Server
 ### Configure the MySQL Master Server:
-
+- Be sure to doanload MySQL (Instructions located at the top of Readme#1.md)
 1. Edit the MySQL configuration file on the master server (typically located at `/etc/mysql/mysql.conf.d/mysqld.cnf` on Linux). 
 or on mac: with homebrew try : 
 ```sudo nano /opt/homebrew/etc/my.cnf```
